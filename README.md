@@ -2,9 +2,9 @@
 
 Split pkg/featuregate from [mosn](https://github.com/mosn/mosn/). 
 
-Remove some `init()`, and follow the original LICENSE too.
+Remove `init()`, and follow the original LICENSE too.
 
-## usage
+## Usage
 
 ```go
 fg := NewFeatureGate()
@@ -17,4 +17,4 @@ fg.AddFeatureSpec("ExampleFeature", &BaseFeatureSpec{
 assertEqual(fg.Enabled("ExampleFeature"), true)
 ``` 
 
-More details in `example_test.go`.
+More details in `example.go` and `example_test.go`.
