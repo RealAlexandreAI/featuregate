@@ -2,7 +2,7 @@
 
 Split pkg/featuregate from [mosn](https://github.com/mosn/mosn/). 
 
-Remove some `inint()`, and follow the LICENSE too.
+Remove some `init()`, and follow the original LICENSE too.
 
 ## usage
 
