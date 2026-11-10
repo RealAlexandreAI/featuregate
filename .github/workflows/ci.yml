@@ -9,6 +9,7 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
     paths-ignore: *docs
+  workflow_dispatch:
 
 permissions:
   contents: read
